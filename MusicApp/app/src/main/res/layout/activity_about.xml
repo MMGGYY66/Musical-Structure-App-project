@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marek.musicapp.About">
+
+    <TextView
+        android:text="This is my music structure application project for Udacity. In the application, there is a main menu where you can find Intents to go to Playing.xml, Interprets.xml, Songs.xml and About.xml, where you are now. There is also possibility to switch between these activities in action bar at the bottom of the layout. In top action bar is a back button to navigate back to main menu. Songs and interprets in the Song.xml and Interprets.xml are clickable."
+        style="@style/DurationStyle"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
